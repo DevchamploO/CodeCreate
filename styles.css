@@ -1,0 +1,299 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Hind:600,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Didact+Gothic&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Heebo:400,500&display=swap');
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	font-family: 'Roboto', sans-serif;
+	font-size: 1rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Didact Gothic', sans-serif;
+}
+
+section {
+	padding: 80px 0;
+	width: 100%;
+	position: relative;
+}
+
+.container {
+	max-width: 90%;
+	width: 1200px;
+	height: auto;
+	margin: 0 auto;
+}
+
+.intro {
+	background: linear-gradient(to bottom right, #2156B6, #69BED0);
+}
+
+.intro-content-wrapper {
+	width: 70%;
+	margin: 100px 0;
+	color: #fff;
+}
+
+.intro-title {
+	margin: 0;
+	font-size: 4rem;
+	font-family: 'Heebo', sans-serif;
+	letter-spacing: 1px;
+	line-height: 1.3;
+}
+
+.intro-content-wrapper p {
+	margin: 20px 0;
+	margin-bottom: 30px;
+	font-size: 20px;
+}
+
+.btn-big {
+	margin: 20px 20px 0px 0;
+	padding: 15px;
+	width: 200px;
+	text-decoration: none;
+	background: #FF6B6B;
+	border: 1px solid #ff6B6B;
+	border-radius: 3px;
+	color: #FFFFFF;
+	font-family: 'Heebo', sans-serif;
+	font-size: 1rem;
+	font-weight: 500;
+	letter-spacing: 1px;
+}
+
+.btn-white {
+	background: transparent;
+	border-color: #FFFFFF;
+}
+
+.blue-bg {
+	background: #2156B6;
+}
+
+.about-items {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.about-item {
+	margin: 50px;
+	width: 300px;
+}
+
+.about-icon {
+	width: 50px;
+	height: 57px;
+	border-radius: 100%;
+	margin-bottom: 25px;
+}
+
+.about-icon i {
+	background: linear-gradient(to bottom right, #2156B6, #69BED0);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.about-item h3 {
+	margin: 0 0 .7em;
+	font-family: 'Didact Gothic', sans-serif;
+	font-size: 18px;
+	line-height: 1.5em;
+	color: rgb(29,25,82);
+}
+
+.about-item p {
+	margin: 0;
+	font-size: 14px;
+	line-height: 1.8;
+	color: #6a7c92;
+}
+
+.othersect {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+.col {
+	flex: 1;
+}
+
+.illustration {
+	width: 500px;
+	height: 500px;
+}
+
+.illustration img {
+	width: 100%;
+}
+
+.txt h3 {
+	font-size: 50px;
+    margin-bottom: 26px;
+    font-family: 'Didact Gothic', sans-serif;
+}
+
+.txt p {
+	font-size: 14px;
+	line-height: 20px;
+}
+
+.row {
+	display: flex;
+}
+
+.bg-layer {
+	width: 100%;
+	height: 500px;
+	background: #2156B6;
+	position: relative;
+	padding-top: 70px;
+}
+
+.bg-title {
+	font-size: 40px;
+	color: #fff;
+	font-weight: 700;
+	text-align: center;
+}
+.sect {
+	display: flex;
+}
+
+.sub-heading {
+	margin-bottom: 30px;
+	text-align: center;
+	font-size: 20px;
+}
+
+.steps {
+	margin-right: 60px;
+}
+
+.left-side {
+	width: 50%;
+}
+
+.right-side {
+	width: 50%;
+}
+
+.perk {
+	padding-left: 40px;
+}
+
+.perk h4 {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	font-size: 18px;
+}
+
+.perk p {
+	font-size: 14px;
+}
+
+.right-side .img-wrapper img {
+	position: relative;
+	top: -50px;
+	opacity: 0.7;
+}
+
+.steps ul li {
+	list-style-type: none;
+	display: flex;
+	margin-bottom: 30px;
+}
+
+.steps ul li i {
+	background: linear-gradient(to bottom right, #2156B6, #69BED0);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.sub-form {
+	width: 66%;
+	margin: 0 auto;
+}
+.mc-field-group, .clear {
+	display: inline-block;
+}
+
+.mc-field-group label {
+	display: none;
+}
+
+.text-box {
+	width: 300px;
+	margin: 10px 20px 10px 0;
+	padding: 10px 8px;
+	border: 1px solid #fff;
+	border-radius: 3px;
+}
+
+.btn-sub {
+	padding: 10px 18px;
+	margin: 10px 0;
+	background: #FF6B6B;
+	border: 1px solid #ff6B6B;
+	border-radius: 3px;
+	color: #FFFFFF;
+	font-family: 'Heebo';
+	font-weight: 500;
+}
+
+@media screen and (max-width: 1000px) {
+
+	.col {
+		flex: 0 1 auto;
+	}
+
+	.intro-content-wrapper{
+		text-align: center;
+		width: 100%;
+	}
+	.intro-content-wrapper p {
+		font-size: 1rem;
+	}
+	.intro-title {
+		font-size: 2.5rem;
+	}
+
+	.illustration, .img-wrapper {
+		width: 100%;
+	}
+
+	.first {
+		order: 1;
+	}
+
+	.second {
+		order: 2;
+	}
+
+	.img-wrapper, .img-wrapper img {
+		width: 100%;
+	}
+
+	.sub-form {
+		width: 80%;
+	}
+
+	.mc-field-group, .clear {
+		width: 100%;
+	}
+
+	.text-box, .btn-sub {
+		width: 100%;
+	}
+}
